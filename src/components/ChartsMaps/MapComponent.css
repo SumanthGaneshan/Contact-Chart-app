@@ -1,0 +1,75 @@
+.map-container {
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.map-marker {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+    transition: transform 0.2s;
+    z-index: 1;
+}
+
+.map-marker:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.marker-popup {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translate(-50%, -100%);
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.map-marker:hover .marker-popup {
+    display: block;
+}
+
+.marker-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.marker-data {
+    margin-top: 5px;
+}
+
+
+.continent-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.continent-item {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.continent-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.continent-text {
+    font-size: 14px;
+}

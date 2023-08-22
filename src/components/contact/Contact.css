@@ -1,0 +1,77 @@
+.contact-page-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 0px 10px;
+}
+
+.page-heading {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 42, 121);
+    font-weight: bold;
+}
+
+.blue-button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .blue-button:hover {
+    background-color: #0056b3;
+  }
+
+.table-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    /* overflow-x: auto; */
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.active {
+    color: green;
+}
+
+.inactive {
+    color: red;
+}
+
+.action-icons{
+    font-size: 22px;
+    cursor: pointer;
+}
