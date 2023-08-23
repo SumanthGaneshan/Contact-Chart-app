@@ -20,9 +20,9 @@ const App: FC = () => {
         <Routes>
 
 
-          <Route path="/" element={<Contact />} />
-          <Route path="/CreateContact" element={<NewContact />} />
-          <Route path="/ChartsAndMaps" element={<Chart />} />
+          <Route path="" element={<Contact />} />
+          <Route path="CreateContact" element={<NewContact />} />
+          <Route path="ChartsAndMaps" element={<Chart />} />
 
 
         </Routes>
