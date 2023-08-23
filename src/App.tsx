@@ -14,7 +14,7 @@ const App: FC = () => {
   return <div>
 
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Contact-Chart-app">
         <Navbar/>
         <Sidebar />
         <Routes>
