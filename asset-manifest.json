@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a942c668.css",
-    "main.js": "/static/js/main.585d425a.js",
-    "static/js/787.088b5568.chunk.js": "/static/js/787.088b5568.chunk.js",
-    "index.html": "/index.html",
-    "main.a942c668.css.map": "/static/css/main.a942c668.css.map",
-    "main.585d425a.js.map": "/static/js/main.585d425a.js.map",
-    "787.088b5568.chunk.js.map": "/static/js/787.088b5568.chunk.js.map"
+    "main.css": "/Contact-Chart-app/static/css/main.a942c668.css",
+    "main.js": "/Contact-Chart-app/static/js/main.ee168bd8.js",
+    "static/js/787.088b5568.chunk.js": "/Contact-Chart-app/static/js/787.088b5568.chunk.js",
+    "index.html": "/Contact-Chart-app/index.html",
+    "main.a942c668.css.map": "/Contact-Chart-app/static/css/main.a942c668.css.map",
+    "main.ee168bd8.js.map": "/Contact-Chart-app/static/js/main.ee168bd8.js.map",
+    "787.088b5568.chunk.js.map": "/Contact-Chart-app/static/js/787.088b5568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a942c668.css",
-    "static/js/main.585d425a.js"
+    "static/js/main.ee168bd8.js"
   ]
 }
